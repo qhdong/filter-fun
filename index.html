@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Filter Fun</title>
+</head>
+<body>
+  <h1>Filter Fun</h1>
+
+  <canvas width="640" height="480" id="canvas"></canvas>
+
+  <h2>Load Image</h2>
+  <input type="file" multiple=false accept="image/*" id="fileInput"/>
+  <p id="imgsize">Unknown size</p>
+
+  <h2>Choose Filter</h2>
+  <div>
+    <button id="grayBtn">grayscale</button>
+    <button id="redBtn">red</button>
+    <button id="blurBtn">blur</button>
+  </div>
+  <div>
+    <button id="resetBtn">reset image</button>
+  </div>
+
+  <script src="SimpleImage.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
